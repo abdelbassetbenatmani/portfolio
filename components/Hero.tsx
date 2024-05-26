@@ -20,9 +20,9 @@ const Hero = () => {
         <div>
           <SubTitle>Abdelbasset Benatmani</SubTitle>
           <h1 className="text-white uppercase my-3 text-3xl  xl:text-7xl lg:leading-normal font-extrabold">
-            <span className="text-white">Hi, I&apos;m Abdelbasset </span>
+            <span className="text-white">Hi &#39; I&#39;m Abdelbasset </span>
             <br></br>
-            <span className="text-theme">I&apos;m a</span>{" "}
+            <span className="text-theme">I&#39;m a</span>{" "}
             <TypeAnimation
               sequence={["Web Developer", 1000, "Full Stack", 1000]}
               wrapper="span"
@@ -96,17 +96,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/* <div className="relative hidden lg:block lg:min-w-[450px] lg:min-h-[450px] xl:min-w-[550px] xl:min-h-[550px] ">
-          <Image
-            src="/hero.png"
-            fill
-            alt="hero"
-            className="hidden lg:block"
-            style={{
-              objectFit: "cover",
-            }}
-          />
-        </div> */}
+
         <OrbitingCirclesDemo/>
       </div>
     </div>

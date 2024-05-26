@@ -53,7 +53,7 @@ const Navbar = () => {
             ))}
           </ul>
           <Link href="#contact" className="hidden xl:block">
-            <Button>Let's Talk</Button>
+            <Button>Let&#39;s Talk</Button>
           </Link>
         </div>
         {/* add humberger menu  */}
