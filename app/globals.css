@@ -2,32 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  scroll-behavior: smooth;
+}
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --theme: #0788ff;
+  --dark: #040c16;
+
+  --content: #707476;
+  --heading: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --theme: #0788ff;
+    --dark: #040c16;
+    --blue: #063560;
+    --content: #707476;
+    --heading: #fff;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.nav-item:hover > div {
+  width: 100%; /* Extend the width to 100% */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.gredient {
+  background: rgb(7, 35, 59);
+  background: linear-gradient(131deg, rgba(7, 35, 59, 1) 0%, rgba(4, 12, 22, 1) 100%);
+}
+
+.gredient2 {
+  background: rgb(7, 45, 79);
+  background: linear-gradient(131deg, rgba(7, 45, 79, 1) 0%, rgba(5, 26, 47, 1) 100%);
 }
