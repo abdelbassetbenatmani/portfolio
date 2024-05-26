@@ -20,9 +20,9 @@ const Hero = () => {
         <div>
           <SubTitle>Abdelbasset Benatmani</SubTitle>
           <h1 className="text-white uppercase my-3 text-3xl  xl:text-7xl lg:leading-normal font-extrabold">
-            <span className="text-white">Hi &#39; I&#39;m Abdelbasset </span>
+            <span className="text-white">Hi, {" I'm Abdelbasset "} </span>
             <br></br>
-            <span className="text-theme">I&#39;m a</span>{" "}
+            <span className="text-theme">{" I'm a "}</span>{" "}
             <TypeAnimation
               sequence={["Web Developer", 1000, "Full Stack", 1000]}
               wrapper="span"
