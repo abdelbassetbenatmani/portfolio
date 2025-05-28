@@ -4,8 +4,7 @@ import { Controller, set, useForm } from "react-hook-form";
 import * as z from "zod";
 import SubmitButton from "./SubmitButton";
 import FormErrorMessage from "./ErrorMessage";
-import { useFormState } from "react-dom";
-import { useState } from "react";
+import { useState, useActionState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { sendContactForm } from "@/lib/api";
 const formSchema = z.object({
