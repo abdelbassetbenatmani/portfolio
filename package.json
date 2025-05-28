@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^2.0.3",
+    "@headlessui/react": "^2.2.4",
     "@hookform/resolvers": "^3.3.4",
     "@types/nodemailer": "^6.4.15",
     "clsx": "^2.1.1",
