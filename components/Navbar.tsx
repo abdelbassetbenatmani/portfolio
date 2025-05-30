@@ -40,7 +40,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`fixed w-full z-[100000]  top-0 left-0 ${isScrolled ? "bg-dark" : "bg-transparent"}`}>
+    <div className={`fixed w-full z-100000  top-0 left-0 ${isScrolled ? "bg-dark" : "bg-transparent"}`}>
       <div className="container mx-auto px-3 h-20 lg:h-24 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-x-1.5">
           <Image src="/logo.png" alt="Logo" width={40} height={40} />
