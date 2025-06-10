@@ -4,6 +4,20 @@ import ProjectCard, { ProjectCardProps } from "./ProjectCard";
 
 const projectsList: ProjectCardProps[] = [
   {
+    title: "AI recruiting platform",
+    description: "An AI-powered platform that streamlines the recruitment process by matching candidates with job openings based on their skills and experience.",
+    image: "/projects/ai-agent/dashboard.jpeg",
+    link: "https://ai-recruter.vercel.app/",
+    githubLink: "https://github.com/abdelbassetbenatmani/ai-recruter"
+    ,
+    tags: ["Nextjs", "Nodejs", "MongoDB", "Express.js", "Tailwindcss", "Typescript", "Zustand", "OpenAI", "Convex"],
+    slides: [
+      "/projects/ai-agent/home.jpeg",
+      "/projects/ai-agent/dashboard.jpeg",
+      "/projects/ai-agent/interview.jpeg",
+    ],
+  },
+  {
     title: "myfloraboard",
     description:
       "MyFloraboard simplifies organizing the plant library with dynamic visual catalogs and filtering tools",
